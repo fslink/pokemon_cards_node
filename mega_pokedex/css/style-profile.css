@@ -1,0 +1,32 @@
+.container {
+	display: flex;
+	justify-content: center;
+}
+
+#container-image {
+	display: flex;
+	justify-content: center;
+}
+
+#container-button{
+	display: flex;
+	justify-content: center;
+}
+
+#container-button > a{
+	margin-bottom: 8px;
+}
+
+h1{
+	text-align: center;
+}
+
+ul{
+	margin-top: 20px;
+	list-style:none;
+}
+
+li{
+	text-align: center;
+
+}

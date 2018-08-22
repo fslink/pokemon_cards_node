@@ -1,0 +1,35 @@
+.img-max-width{
+	max-width : 128px;
+}
+
+.hacker-list {
+	margin-top:30px;
+	margin-bottom:30px;
+}
+.list {
+	list-style-type:none;
+	padding:0;
+	margin:0;
+}
+.name {
+	padding-bottom:20px;
+	margin-bottom:20px;
+	border-bottom:1px solid $BorderColor;
+}
+
+.pagination{
+  	padding:5px;
+	border: 1p solid black;
+	display: flex;
+	justify-content: center;
+}
+
+.page{
+	padding: 5px;
+	margin: 2px;
+	border: 1px solid black;
+}
+
+.page:hover{
+	background-color: rgba(0, 0, 0, 0.2);
+}
