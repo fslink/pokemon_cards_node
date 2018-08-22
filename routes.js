@@ -10,8 +10,8 @@ app.get('/mega_pokedex', function(req, res){
 	res.sendFile(__dirname + '/mega_pokedex/pokedex.html');
 });
 
-app.get('/', function(req, res){
-	res.sendFile(__dirname + '/pokedex/pokedex.html');
-});
+app.get('/pokedex', function(req, res){
+	res.sendFile((__dirname + '/pokedex/pokedex.html');
+})
 
 app.use(express.static('mega_pokedex'));
