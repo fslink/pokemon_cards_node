@@ -6,6 +6,10 @@ app.listen(9999, function(){
 	console.log('server lancé');
 });
 
+app.get('/', function(req, res){
+	res.send('Hello World');
+});
+
 app.get('/mega_pokedex', function(req, res){
 	res.sendFile(__dirname + '/mega_pokedex/pokedex.html');
 });
