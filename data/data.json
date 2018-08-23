@@ -1,0 +1,25 @@
+	// table de caractères et objets primitifs
+	var listeFruits = ["pomme", "poire", "banane", "melon", "pastèque", 1, true];
+
+	// tableau d'objets
+	var listeAnimaux = [{
+	    "nom": "lola",
+	    "type": "chien",
+	    "age": 2,
+	    "cri": "wouaf"
+	}, {
+	    "nom": "mini",
+	    "type": "chat",
+	    "age": 8,
+	    "cri": "miaou"
+	}, {
+	    "nom": "titi",
+	    "type": "canari",
+	    "age": 3,
+	    "cri": "cuicui"
+	}, {
+	    "nom": "maurice",
+	    "type": "poisson",
+	    "age": 5,
+	    "cri": "blop"
+	}];
